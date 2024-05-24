@@ -7,7 +7,7 @@ import { nanoid } from 'nanoid';
 import 'dotenv/config';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 10000;
 
 // Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGO_URI)
